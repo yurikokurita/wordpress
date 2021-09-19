@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/*!
+Theme Name: Cocoon Child
+Description: Cocoon専用の子テーマ
+Theme URI: https://wp-cocoon.com/
+Author: わいひら
+Author URI: https://nelog.jp/
+Template:   cocoon-master
+Version:    1.1.3
+*/
+
+/************************************
+** 子テーマ用のスタイルを書く
+************************************/
+/************************************
+** 投稿記事いいねボタンカスタマイズ
+************************************/
+/*左サイド追従式いいねボタン*/
+.iine_side_container {
+  width: calc(100px + 150%);
+  margin-left: -130px;
+  position: fixed;
+}
+
+/*画像サイズ*/
+.wpulike-default .wp_ulike_general_class > .wp_ulike_put_image:after {
+  width: 20px;
+  height: 20px;
+}
+
+/************************************
+** レスポンシブデザイン用のメディアクエリ
+************************************/
+/*1023px以下*/
+@media screen and (max-width: 1023px){
+  /*必要ならばここにコードを書く*/
+}
+
+/*834px以下*/
+@media screen and (max-width: 834px){
+  /*必要ならばここにコードを書く*/
+}
+
+/*480px以下*/
+@media screen and (max-width: 480px){
+  /*必要ならばここにコードを書く*/
+}
